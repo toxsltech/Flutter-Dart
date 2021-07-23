@@ -1,0 +1,69 @@
+name: alanis
+description: alanis.
+version: 1.0.0+1
+environment:
+  sdk: ">=2.7.0 <=2.13.4"
+dependencies:
+  flutter:
+    sdk: flutter
+  fluttertoast:
+  validators:
+  shimmer: ^2.0.0
+  better_player: 0.0.72
+  badges:
+  dio: ^4.0.0
+  mask_text_input_formatter:
+  video_player:
+  cached_video_player:
+  fancy_shimmer_image: ^2.0.0+1
+  shared_preferences:
+  image_cropper: ^1.3.1
+  intl:
+  rflutter_alert:
+  image_picker:
+  multi_image_picker: ^4.8.0
+  file_picker: ^1.4.3+1
+  randomizer: ^0.0.2
+  device_info: ^2.0.0
+  form_field_validator: 1.0.1
+  mime:
+  path_provider:
+  flutter_html:
+  lottie: ^1.0.1
+  flutter_cache_manager:
+  google_sign_in: 5.0.3
+  firebase_core: ^1.2.1
+  firebase_messaging: ^10.0.0
+  firebase_auth: ^1.1.2
+  flutter_local_notifications:
+  apple_sign_in:
+  flutter_facebook_auth: ^3.3.2
+  country_picker: ^2.0.6
+  flash: 2.0.0
+  connectivity_plus: ^1.0.5
+  cached_network_image:
+  firebase_crashlytics: ^2.1.1
+  flutter_blurhash: ^0.6.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+    - assets/shield/
+    - assets/star/
+    - assets/lottie/
+  fonts:
+    - family: ProductSans
+      fonts:
+        - asset: assets/fonts/Product-Sans-Regular.ttf
+        - asset: assets/fonts/Product-Sans-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Product-Sans-Bold.ttf
+          weight: 700
